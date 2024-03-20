@@ -4,7 +4,7 @@ import { SectionContainer } from '../SectionContainer';
 
 export const SectionBackground = ({ children, background = false }) => {
   return (
-    <Styled.Container background={background ? 'true' : 'false'}>
+    <Styled.Container background={background}>
       <SectionContainer>{children}</SectionContainer>
     </Styled.Container>
   );
