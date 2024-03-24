@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<GridText /> should render the component 1`] = `
+exports[`<GridText /> should render with background 1`] = `
 .c4 {
   color: #0A1128;
   font-size: 6.4rem;
@@ -85,11 +85,11 @@ exports[`<GridText /> should render the component 1`] = `
         >
           My grid
         </h2>
-        <p
+        <div
           class="c5 c6"
         >
           Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -102,11 +102,11 @@ exports[`<GridText /> should render the component 1`] = `
             >
               Teste 1
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -117,11 +117,11 @@ exports[`<GridText /> should render the component 1`] = `
             >
               Teste 2
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -132,28 +132,20 @@ exports[`<GridText /> should render the component 1`] = `
             >
               Teste 3
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
         </div>
       </div>
-      <video
-        class="vjs-tech"
-        id="vjs_video_2108_html5_api"
-        playsinline=""
-        role="application"
-        src="https://video.privacy.com.br/bbfc5610-e3f1-4779-b05c-eaf636a405b8/mp4/adbdbdef-3010-4758-be2f-5af11bc93094-638466691110364374--feercamppos_Mp4_Avc_Aac_16x9_1280x720p_24Hz_8.5Mbps_qvbr.mp4"
-        tabindex="-1"
-      />
     </div>
   </div>
 </div>
 `;
 
-exports[`<GridText /> should render the component in background undefined 1`] = `
+exports[`<GridText /> should render without background 1`] = `
 .c4 {
   color: #0A1128;
   font-size: 6.4rem;
@@ -238,11 +230,11 @@ exports[`<GridText /> should render the component in background undefined 1`] = 
         >
           My grid
         </h2>
-        <p
+        <div
           class="c5 c6"
         >
           Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -255,11 +247,11 @@ exports[`<GridText /> should render the component in background undefined 1`] = 
             >
               Teste 1
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -270,11 +262,11 @@ exports[`<GridText /> should render the component in background undefined 1`] = 
             >
               Teste 2
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -285,22 +277,14 @@ exports[`<GridText /> should render the component in background undefined 1`] = 
             >
               Teste 3
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
         </div>
       </div>
-      <video
-        class="vjs-tech"
-        id="vjs_video_2108_html5_api"
-        playsinline=""
-        role="application"
-        src="https://video.privacy.com.br/bbfc5610-e3f1-4779-b05c-eaf636a405b8/mp4/adbdbdef-3010-4758-be2f-5af11bc93094-638466691110364374--feercamppos_Mp4_Avc_Aac_16x9_1280x720p_24Hz_8.5Mbps_qvbr.mp4"
-        tabindex="-1"
-      />
     </div>
   </div>
 </div>
