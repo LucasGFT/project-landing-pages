@@ -13,6 +13,7 @@ exports[`<GridContent /> should render content grid 1`] = `
 
 .c3 {
   color: #0A1128;
+  width: auto;
   font-size: 6.4rem;
   text-transform: uppercase;
 }
@@ -174,6 +175,7 @@ exports[`<GridContent /> should render content grid 2`] = `
 
 .c3 {
   color: #0A1128;
+  width: auto;
   font-size: 6.4rem;
   text-transform: uppercase;
 }

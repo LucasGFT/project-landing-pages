@@ -3,12 +3,14 @@
 exports[`<GridText /> should render with background 1`] = `
 .c4 {
   color: #0A1128;
+  width: auto;
   font-size: 6.4rem;
   text-transform: uppercase;
 }
 
 .c9 {
   color: #0A1128;
+  width: auto;
   font-size: 3.2rem;
   text-transform: none;
 }
@@ -148,12 +150,14 @@ exports[`<GridText /> should render with background 1`] = `
 exports[`<GridText /> should render without background 1`] = `
 .c4 {
   color: #0A1128;
+  width: auto;
   font-size: 6.4rem;
   text-transform: uppercase;
 }
 
 .c9 {
   color: #0A1128;
+  width: auto;
   font-size: 3.2rem;
   text-transform: none;
 }

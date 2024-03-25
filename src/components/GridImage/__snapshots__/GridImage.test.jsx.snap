@@ -3,6 +3,7 @@
 exports[`<GridImage /> should render with background 1`] = `
 .c3 {
   color: #0A1128;
+  width: auto;
   font-size: 6.4rem;
   text-transform: uppercase;
 }
@@ -142,6 +143,7 @@ exports[`<GridImage /> should render with background 1`] = `
 exports[`<GridImage /> should render without background 1`] = `
 .c3 {
   color: #0A1128;
+  width: auto;
   font-size: 6.4rem;
   text-transform: uppercase;
 }
