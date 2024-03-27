@@ -3,8 +3,10 @@ import * as Styled from './styles';
 import { SectionContainer } from '../SectionContainer';
 
 export const SectionBackground = ({ children, background = false }) => {
+  const boolBackground = background ? 'true' : 'false';
+
   return (
-    <Styled.Container background={background}>
+    <Styled.Container background={boolBackground}>
       <SectionContainer>{children}</SectionContainer>
     </Styled.Container>
   );

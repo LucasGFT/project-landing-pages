@@ -32,14 +32,14 @@ exports[`<Base /> should render 1`] = `
   text-transform: none;
 }
 
-.c21 {
+.c20 {
   color: #0A1128;
   width: auto;
   font-size: 6.4rem;
   text-transform: uppercase;
 }
 
-.c22 {
+.c21 {
   color: #0A1128;
   width: auto;
   font-size: 3.2rem;
@@ -144,27 +144,27 @@ exports[`<Base /> should render 1`] = `
   font-size: 2.4rem;
 }
 
-.c23 {
+.c22 {
   text-align: center;
   font-size: 1.6rem;
   border-top: 0.1rem solid #DDDDDD;
 }
 
-.c23 a {
+.c22 a {
   color: inherit;
   text-decoration: none;
 }
 
-.c23 .c15 {
+.c22 .c15 {
   font-size: 1.6rem;
 }
 
-.c23 .c3 {
+.c22 .c3 {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.c24 {
+.c23 {
   position: fixed;
   display: flex;
   background-color: #0A1128;
@@ -217,14 +217,6 @@ exports[`<Base /> should render 1`] = `
   align-items: center;
 }
 
-.c20 {
-  background-color: #FFFFFF;
-  color: #0A1128;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-}
-
 @media (max-width: 768px) {
   .c11 {
     padding-top: 0;
@@ -238,7 +230,7 @@ exports[`<Base /> should render 1`] = `
 }
 
 @media (max-width: 768px) {
-  .c21 {
+  .c20 {
     font-size: 4.0rem;
   }
 }
@@ -418,6 +410,7 @@ exports[`<Base /> should render 1`] = `
     class="c11"
   >
     <div
+      background="true"
       class="c12"
     >
       <div
@@ -490,7 +483,8 @@ exports[`<Base /> should render 1`] = `
       </div>
     </div>
     <div
-      class="c20"
+      background="false"
+      class="c12"
     >
       <div
         class="c3 c4"
@@ -499,7 +493,7 @@ exports[`<Base /> should render 1`] = `
           class="c13"
         >
           <h2
-            class="c6 c21"
+            class="c6 c20"
             colordark="true"
           >
             My grid
@@ -516,7 +510,7 @@ exports[`<Base /> should render 1`] = `
               class="c18"
             >
               <h3
-                class="c6 c22"
+                class="c6 c21"
                 colordark="true"
               >
                 Teste 1
@@ -531,7 +525,7 @@ exports[`<Base /> should render 1`] = `
               class="c18"
             >
               <h3
-                class="c6 c22"
+                class="c6 c21"
                 colordark="true"
               >
                 Teste 2
@@ -546,7 +540,7 @@ exports[`<Base /> should render 1`] = `
               class="c18"
             >
               <h3
-                class="c6 c22"
+                class="c6 c21"
                 colordark="true"
               >
                 Teste 3
@@ -562,6 +556,7 @@ exports[`<Base /> should render 1`] = `
       </div>
     </div>
     <div
+      background="true"
       class="c12"
     >
       <div
@@ -634,7 +629,8 @@ exports[`<Base /> should render 1`] = `
       </div>
     </div>
     <div
-      class="c20"
+      background="false"
+      class="c12"
     >
       <div
         class="c3 c4"
@@ -643,7 +639,7 @@ exports[`<Base /> should render 1`] = `
           class="c13"
         >
           <h2
-            class="c6 c21"
+            class="c6 c20"
             colordark="true"
           >
             My grid
@@ -660,7 +656,7 @@ exports[`<Base /> should render 1`] = `
               class="c18"
             >
               <h3
-                class="c6 c22"
+                class="c6 c21"
                 colordark="true"
               >
                 Teste 1
@@ -675,7 +671,7 @@ exports[`<Base /> should render 1`] = `
               class="c18"
             >
               <h3
-                class="c6 c22"
+                class="c6 c21"
                 colordark="true"
               >
                 Teste 2
@@ -690,7 +686,7 @@ exports[`<Base /> should render 1`] = `
               class="c18"
             >
               <h3
-                class="c6 c22"
+                class="c6 c21"
                 colordark="true"
               >
                 Teste 3
@@ -706,6 +702,7 @@ exports[`<Base /> should render 1`] = `
       </div>
     </div>
     <div
+      background="true"
       class="c12"
     >
       <div
@@ -778,7 +775,8 @@ exports[`<Base /> should render 1`] = `
       </div>
     </div>
     <div
-      class="c20"
+      background="false"
+      class="c12"
     >
       <div
         class="c3 c4"
@@ -787,7 +785,7 @@ exports[`<Base /> should render 1`] = `
           class="c13"
         >
           <h2
-            class="c6 c21"
+            class="c6 c20"
             colordark="true"
           >
             My grid
@@ -804,7 +802,7 @@ exports[`<Base /> should render 1`] = `
               class="c18"
             >
               <h3
-                class="c6 c22"
+                class="c6 c21"
                 colordark="true"
               >
                 Teste 1
@@ -819,7 +817,7 @@ exports[`<Base /> should render 1`] = `
               class="c18"
             >
               <h3
-                class="c6 c22"
+                class="c6 c21"
                 colordark="true"
               >
                 Teste 2
@@ -834,7 +832,7 @@ exports[`<Base /> should render 1`] = `
               class="c18"
             >
               <h3
-                class="c6 c22"
+                class="c6 c21"
                 colordark="true"
               >
                 Teste 3
@@ -850,7 +848,7 @@ exports[`<Base /> should render 1`] = `
       </div>
     </div>
     <footer
-      class="c23"
+      class="c22"
     >
       <div
         class="c3 c4"
@@ -867,7 +865,7 @@ exports[`<Base /> should render 1`] = `
   </div>
   <a
     aria-label="Go to top"
-    class="c24"
+    class="c23"
     href="#"
     title="Go to top"
   >

@@ -26,6 +26,8 @@ exports[`<GridTwoColumns /> should render two column grid 1`] = `
 .c0 {
   background-color: #FFFFFF;
   color: #0A1128;
+  background-color: #0A1128;
+  color: #FFFFFF;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -58,6 +60,7 @@ exports[`<GridTwoColumns /> should render two column grid 1`] = `
 
 <div>
   <div
+    background="false"
     class="c0"
   >
     <div
