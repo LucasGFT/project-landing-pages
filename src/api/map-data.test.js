@@ -7,7 +7,13 @@ describe('map-data', () => {
     expect(pagesData.slug).toBe('');
     expect(pagesData.title).toBe('');
     expect(pagesData.sections).toEqual([]);
-    expect(pagesData.menu).toEqual({});
+    expect(pagesData.menu).toEqual({
+      newTab: false,
+      text: '',
+      srcImg: '',
+      link: '',
+      links: [],
+    });
   });
   it('should map data if there are data', () => {
     const pagesData = mapData([
@@ -23,6 +29,12 @@ describe('map-data', () => {
     expect(pagesData.slug).toBe('slug');
     expect(pagesData.title).toBe('title');
     expect(pagesData.sections).toEqual([1, 2, 3, 4]);
-    expect(pagesData.menu).toEqual({ a: 'b' });
+    expect(pagesData.menu).toEqual({
+      newTab: false,
+      text: '',
+      srcImg: '',
+      link: '',
+      links: [],
+    });
   });
 });
