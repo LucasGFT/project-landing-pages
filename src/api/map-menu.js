@@ -4,15 +4,15 @@ export const mapMenu = (menuObj = {}) => {
     logo_text = '',
     logo_link = '',
     logo = { url: '' },
-    menu = [],
+    menu_links = [],
   } = menuObj;
 
   return {
     newTab: open_in_new_tab,
     text: logo_text,
-    srcImg: logo.url,
+    srcImg: logo.data.attributes.url,
     link: logo_link,
-    links: mapMenuLinks(menu),
+    links: mapMenuLinks(menu_links),
   };
 };
 
