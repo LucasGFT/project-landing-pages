@@ -10,6 +10,7 @@
     "css-mediaquery": "^0.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.8",
     "web-vitals": "^2.1.4"
@@ -64,6 +65,7 @@
       "src/**/*.{js,jsx,ts,tsx}",
       "!<rootDir>/src/*.{js,jsx,ts,tsx}",
       "!<rootDir>/src/**/*mock*.{js,jsx,ts,tsx}",
+      "!<rootDir>/src/templates/**/*",
       "!<rootDir>/src/**/index.{js,jsx,ts,tsx}",
       "!<rootDir>/src/styles/*.{js,jsx,ts,tsx}",
       "!<rootDir>/**/stories.{js,jsx,ts,tsx}",

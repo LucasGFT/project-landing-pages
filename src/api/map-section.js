@@ -22,8 +22,6 @@ export const mapSections = (sections = []) => {
 };
 
 export const mapSectionTwoColumns = (section = {}) => {
-  console.log(section);
-
   const {
     __component = '',
     title = '',
@@ -85,7 +83,9 @@ export const mapImageGrid = (section = {}) => {
     description = '',
   } = section;
 
-  const grid = image_grid.map((image) => mapImageInImageGrid(image));
+  const grid = image_grid.map((image) =>
+    mapImageInImageGrid(image.image.data[0].attributes),
+  );
   return {
     grid,
     title,
@@ -97,8 +97,7 @@ export const mapImageGrid = (section = {}) => {
 };
 
 export const mapImageInImageGrid = (infoImage) => {
-  const { image: { url = '', alternativeText = '' } = {} } = infoImage;
-
+  const { url = '', alternativeText = '' } = infoImage;
   return {
     altText: alternativeText,
     srcImg: url,

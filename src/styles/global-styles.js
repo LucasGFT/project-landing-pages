@@ -16,6 +16,7 @@ export const GlobalStyles = createGlobalStyle`
    body {
       font-size: 1.6rem;
       font-family: ${({ theme }) => theme.font.family.default};
+      overflow-x: hidden;
    }
 
    h1, h2, h3, h4, h5, h6 {
@@ -34,5 +35,10 @@ export const GlobalStyles = createGlobalStyle`
 
    a {
       color:  ${({ theme }) => theme.colors.secondaryColor};
+   }
+
+   .table {
+      width: 100%;
+      overflow-y: auto;
    }
 `;

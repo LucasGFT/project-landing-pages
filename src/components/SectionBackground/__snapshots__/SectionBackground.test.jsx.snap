@@ -15,12 +15,13 @@ exports[`<SectionBackground /> should render with background dark 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 <div>
   <div
-    background="true"
     class="c0"
+    id="id-9026-40814598728"
   >
     <div
       class="c1"
@@ -37,8 +38,6 @@ exports[`<SectionBackground /> should render with background light 1`] = `
 .c0 {
   background-color: #FFFFFF;
   color: #0A1128;
-  background-color: #0A1128;
-  color: #FFFFFF;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -48,12 +47,13 @@ exports[`<SectionBackground /> should render with background light 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 <div>
   <div
-    background="false"
     class="c0"
+    id="landing-page"
   >
     <div
       class="c1"

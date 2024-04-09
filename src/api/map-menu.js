@@ -3,14 +3,18 @@ export const mapMenu = (menuObj = {}) => {
     open_in_new_tab = false,
     logo_text = '',
     logo_link = '',
-    logo = { url: '' },
     menu_links = [],
   } = menuObj;
+
+  const srcImg =
+    menuObj.logo.data && menuObj.logo.data.attributes.url
+      ? menuObj.logo.data.attributes.url
+      : '';
 
   return {
     newTab: open_in_new_tab,
     text: logo_text,
-    srcImg: logo.data.attributes.url,
+    srcImg,
     link: logo_link,
     links: mapMenuLinks(menu_links),
   };

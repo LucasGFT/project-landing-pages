@@ -26,8 +26,6 @@ exports[`<GridTwoColumns /> should render two column grid 1`] = `
 .c0 {
   background-color: #FFFFFF;
   color: #0A1128;
-  background-color: #0A1128;
-  color: #FFFFFF;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -37,6 +35,7 @@ exports[`<GridTwoColumns /> should render two column grid 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -60,8 +59,8 @@ exports[`<GridTwoColumns /> should render two column grid 1`] = `
 
 <div>
   <div
-    background="false"
     class="c0"
+    id="id-9443-757573974022"
   >
     <div
       class="c1"

@@ -2,6 +2,7 @@ import { mapMenu } from './map-menu';
 import { mapSections } from './map-section';
 
 export const mapData = (pagesData = [{}]) => {
+  console.log('asasnk');
   return pagesData.map((data) => {
     const {
       footer_text = '',
