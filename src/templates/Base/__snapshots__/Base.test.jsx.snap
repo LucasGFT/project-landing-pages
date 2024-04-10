@@ -420,7 +420,7 @@ exports[`<Base /> should render 1`] = `
   >
     <div
       class="c12"
-      id="id-6477-673058239797"
+      id=""
     >
       <div
         class="c3 c4"
@@ -493,7 +493,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c20"
-      id="id-3454-518359025467"
+      id=""
     >
       <div
         class="c3 c4"
@@ -566,7 +566,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c12"
-      id="id-7950-365050892398"
+      id=""
     >
       <div
         class="c3 c4"
@@ -639,7 +639,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c20"
-      id="id-8749-156352464124"
+      id=""
     >
       <div
         class="c3 c4"
@@ -712,7 +712,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c12"
-      id="id-732-82841009783"
+      id=""
     >
       <div
         class="c3 c4"
@@ -785,7 +785,7 @@ exports[`<Base /> should render 1`] = `
     </div>
     <div
       class="c20"
-      id="id-2056-124180593881"
+      id=""
     >
       <div
         class="c3 c4"

@@ -8,6 +8,7 @@ import { GridContent } from '../../components/GridContent';
 import { GridText } from '../../components/GridText';
 import { GridImage } from '../../components/GridImage';
 import { useLocation } from 'react-router-dom';
+import { config } from '../../config';
 
 export function Home() {
   const [data, setData] = useState([]);
@@ -17,14 +18,15 @@ export function Home() {
     const pathName = location.pathname
       .replace(/^a-z0-9-_/gi, '')
       .replace('/', '');
-    const slug = pathName && pathName !== '/' ? pathName : 'landing-page';
+    const slug = pathName && pathName !== '/' ? pathName : config.defaultSlug;
 
     const load = async () => {
       try {
         const data = await fetch(
-          `http://localhost:1337/api/pages?filters[slug]=${slug}&populate=deep&pagination[page]=1&pagination[pageSize]=1&sort[0]=id:desc`,
+          `${config.url}?filters[slug]=${slug}&populate=deep&pagination[page]=1&pagination[pageSize]=1&sort[0]=id:desc`,
         );
         const json = await data.json();
+        console.log(json);
         const pageData = mapData([json.data[0].attributes]);
         setData(pageData[0]);
       } catch (e) {
@@ -34,6 +36,20 @@ export function Home() {
 
     load();
   }, [location]);
+
+  useEffect(() => {
+    if (data === undefined) {
+      document.title = `Página não encontrada | ${config.siteName}`;
+    }
+
+    if (data && !data.slug) {
+      document.title = `Carregando | ${config.siteName}`;
+    }
+
+    if (data && data.title) {
+      document.title = `${data.title}  | ${config.siteName}`;
+    }
+  }, [data]);
 
   if (data === undefined) {
     return <PageNotFound />;
